@@ -1,7 +1,7 @@
 
 const members = [
     {id: 1, name: 'John Doe', email: 'john@MediaList.com', status: "active"},
-    {id: 2, name: 'John Doe', email: 'john@MediaList.com', status: "jos jednom"},
+    {id: 2, name: 'John Doe', email: 'john@MediaList.com', status: "jos jednom 1"},
     {id: 3, name: 'John Doe', email: 'john@MediaList.com', status: "active"},
     {id: 4, name: 'John Doe', email: 'john@MediaList.com', status: "active"},
     {id: 5, name: 'John Doe', email: 'john@MediaList.com', status: "active"},
