@@ -40,8 +40,6 @@ router.post('/', (req, res) => {
 router.put('/:id', (req,res) => {
     const found = members.some(member => member.id === parseInt(req.params.id))
 
-    console.log(found)
-
     if(found) {
         const updateMember = req.body; 
         console.log(updateMember)
