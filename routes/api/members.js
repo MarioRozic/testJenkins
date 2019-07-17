@@ -6,7 +6,7 @@ const members = require('../../members')
 
 
 router.get('/', (req, res) => {
-    res.json({members, members});
+    res.json({members, success: {test: 'Neka poruka'}});
 })
 
 router.get('/:id', (req,res) => {
